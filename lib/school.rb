@@ -31,7 +31,7 @@ class School
     roster.each do |key, values|
       sorted_students[key] = values.sort
     end
-    sorted
+    sorted_students
   end
 end  
 
