@@ -27,9 +27,9 @@ class School
 #Part 5
 
   def sort
-    sorted = {}
+    sorted_students = {}
     roster.each do |key, values|
-      sorted[key] = values.sort
+      sorted_students[key] = values.sort
     end
     sorted
   end
