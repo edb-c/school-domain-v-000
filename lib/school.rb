@@ -43,5 +43,5 @@ school.add_student("AC Slater", 9)
 school.add_student("Kelly Kapowski", 10)
 school.add_student("Screech", 11)
 puts school.roster
-puts school.grade(9)
+puts "t" + school.grade(9)
 puts school.sort
